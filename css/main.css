@@ -432,22 +432,25 @@ section#align-items-section {
 
 /* flex-wrap */
 section#flex-wrap-section {
-  /* place your code here */
+  display: flex;
+  justify-content: center;
 }
 
 .flex-wrap-nowrap-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
 }
 
 .flex-wrap-wrap-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .flex-wrap-wrap-reverse-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
 }
 
 /* end flex-wrap */
