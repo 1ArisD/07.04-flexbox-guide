@@ -518,21 +518,25 @@ section#align-content-section {
 
 /* gap */
 section#gap-section {
-/* place your code here */
+  display: flex;
+  justify-content: center;
 }
 
 .gap-parent-container {
-  /* display: flex; */
+  display: flex; 
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .row-gap-parent-container {
-  /* display: flex; */
+  display: flex; 
+  row-gap: 20px;
   flex-wrap: wrap;
 }
 
 .column-gap-parent-container {
-  /* place your code here */
+  display: flex; 
+  column-gap: 20px;
   flex-wrap: wrap;
 }
 
